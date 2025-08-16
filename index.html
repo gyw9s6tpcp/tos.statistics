@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <title>魔法石花費統計</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+    <div class="scaler">
+        <div class="page-wrapper">
+            <div class="content-area">
+                <form id="stats-form">
+
+                    <img src="download_icon.png" id="download-btn" alt="下載圖片">
+                    
+                    <div class="cost-input" id="input-1" contenteditable="true" inputmode="numeric"></div>
+                    <div class="cost-input" id="input-2" contenteditable="true" inputmode="numeric"></div>
+                    <div class="cost-input" id="input-3" contenteditable="true" inputmode="numeric"></div>
+                    <div class="cost-input" id="input-4" contenteditable="true" inputmode="numeric"></div>
+                    <div class="cost-input" id="input-5" contenteditable="true" inputmode="numeric"></div>
+                    <div class="cost-input" id="input-6" contenteditable="true" inputmode="numeric"></div>
+                    <div class="cost-input" id="input-7" contenteditable="true" inputmode="numeric"></div>
+                    <div class="cost-input" id="input-8" contenteditable="true" inputmode="numeric"></div>
+
+                    <img src="stone_off.png" alt="魔法石" class="magic-stone" id="stone-1" data-state="off">
+                    <img src="stone_off.png" alt="魔法石" class="magic-stone" id="stone-2" data-state="off">
+                    <img src="stone_off.png" alt="魔法石" class="magic-stone" id="stone-3" data-state="off">
+                    <img src="stone_off.png" alt="魔法石" class="magic-stone" id="stone-4" data-state="off">
+                    <img src="stone_off.png" alt="魔法石" class="magic-stone" id="stone-5" data-state="off">
+                    <img src="stone_off.png" alt="魔法石" class="magic-stone" id="stone-6" data-state="off">
+                    <img src="stone_off.png" alt="魔法石" class="magic-stone" id="stone-7" data-state="off">
+                    <img src="stone_off.png" alt="魔法石" class="magic-stone" id="stone-8" data-state="off">
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
