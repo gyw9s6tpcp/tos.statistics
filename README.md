@@ -1,6 +1,7 @@
 <img width="1920" height="1080" alt="451" src="https://github.com/user-attachments/assets/bb0dd60e-595c-4ec4-bdd3-feb66c6b6ae5" />
 
 
+2025/08/16_1002 大獎圖示優化
 2025/08/16_1001 魔法石花費統計
 
 網站：https://gyw9s6tpcp.github.io/tos.statistics/
