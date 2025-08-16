@@ -2,6 +2,7 @@
 
 
 2025/08/16_1002 大獎圖示優化
+
 2025/08/16_1001 魔法石花費統計
 
 網站：https://gyw9s6tpcp.github.io/tos.statistics/
